@@ -10,7 +10,8 @@ int main() {
     std::cout << "Введите второе целое число: ";
     std::cin >> num2;
 
-    // Ваш код здесь
+    int sum = num1 + num2;
+    std::cout << "Сумма введенных чисел: " << sum << std::endl;
 
     return 0;
 }
