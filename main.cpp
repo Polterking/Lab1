@@ -16,9 +16,12 @@ int main() {
     int difference = num1 - num2;
     std::cout << "The difference of the entered numbers: " << difference << std::endl;
 
-    int product = num1 * num2;
-    std::cout << "The product of the entered numbers: " << product << std::endl;
+    if (num2 != 0) {
+        double division = static_cast<double>(num1) / num2;
+        std::cout << "The division of the entered numbers: " << division << std::endl;
+    } else {
+        std::cout << "Division by zero is not allowed." << std::endl;
+    }
 
     return 0;
 }
-
