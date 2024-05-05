@@ -1,5 +1,5 @@
 #include <iostream>
-
+# This program is for educational purposes
 int main() {
     int num1, num2;
 
