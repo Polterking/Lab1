@@ -20,7 +20,7 @@ int main() {
         double division = static_cast<double>(num1) / num2;
         std::cout << "The division of the entered numbers: " << division << std::endl;
     } else {
-        std::cout << "Division by zero is not allowed." << std::endl;
+        std::cout << "u nub." << std::endl;
     }
 
     return 0;
