@@ -1,5 +1,6 @@
-#include <iostream>
-# This program is for educational purposes
+#include "sdt.h"
+#UCHEBNAYA VERSIA
+
 int main() {
     int num1, num2;
 
@@ -15,5 +16,9 @@ int main() {
     int difference = num1 - num2;
     std::cout << "The difference of the entered numbers: " << difference << std::endl;
 
+    int product = num1 * num2;
+    std::cout << "The product of the entered numbers: " << product << std::endl;
+
     return 0;
 }
+
